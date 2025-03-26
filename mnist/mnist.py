@@ -10,7 +10,7 @@ import numpy as np
 
 def mnist(
     save_dir="/tmp",
-    base_url="https://raw.githubusercontent.com/fgnt/mnist/master/",
+    base_url="https://gh-proxy.com/https://raw.githubusercontent.com/fgnt/mnist/master/",
     filename="mnist.pkl",
 ):
     """

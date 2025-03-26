@@ -75,7 +75,7 @@ def ptb(save_dir="/tmp"):
     ]
 
     def download_and_save(save_dir):
-        base_url = "https://raw.githubusercontent.com/wojzaremba/lstm/master/data/"
+        base_url = "https://gh-proxy.com/https://raw.githubusercontent.com/wojzaremba/lstm/master/data/"
         for name in filenames:
             out_file = os.path.join(save_dir, name)
             if not os.path.exists(out_file):
